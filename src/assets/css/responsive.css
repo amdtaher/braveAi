@@ -1,0 +1,143 @@
+/* Extra Large Device Checking Size- 1200px */
+@media only screen and (min-width:1191px) and (max-width:1450px){
+    .container{
+        width: 1170px;
+    }
+}
+
+/* Large Device Checking Size- 1000px */
+@media only screen and (min-width:992px) and (max-width:1190px){
+    .container{
+        width: 970px;
+    }
+}
+
+/* Tablet Device Checking Size- 800px */
+@media only screen and (min-width:768px) and (max-width:991px){
+    .container{
+        width: 750px;
+    }
+    /* Hero */
+    .heroTop {
+        padding: 0 5rem;
+    }
+    .heroTopTitle{
+        font-size: 6rem;
+        line-height: 7rem;
+    }
+}
+
+/* Mobile Device Checking Size- 400px */
+@media only screen and (max-width:767px){
+    body{
+        padding: 0;
+    }
+    .container{
+        width: 350px;
+    }
+    .show{
+        display: flex !important;
+        opacity: 1;
+    }
+    .hide{
+        display: none !important;
+        opacity: 0;
+    }
+    /* Header */
+    /* Navigation Bar */
+    .navLinks {
+        flex-direction: column;
+        position: absolute;
+        top: 5.4rem;
+        right: 0rem;
+        background: var(--primary_color);
+        padding: 3rem 3rem;
+        border-radius: .5rem;
+        z-index: 1;
+    }
+    .navLinks a{
+        color: var(--white_color);
+    }
+    .navBtnHidden, .hamburger{
+        display: block;
+    }
+    .hamburger{
+        max-width: 3.5rem;
+    }
+    .navRight .btn{
+        display: none;
+    }
+    /* Hero */
+    .heroTop{
+        padding: 0 0;
+    }
+    .heroTopTitle{
+        font-size: 5rem;
+        line-height: 5.8rem;
+    }
+    .heroTopSubtitle{
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+    }
+    .star1{
+        bottom: 5;
+        left: 0;
+    }
+    .star2{
+        top: -15%;
+        right: 10%;
+    }
+    .star3{
+        bottom: 10%;
+        right: 5%;
+    }
+    .miniProfile1{
+        bottom: 25%;
+        right: 0%;
+    }
+    .miniProfile2{
+        top: 5%;
+        right: 0;
+    }
+    .miniProfile3{
+        top: auto;
+        bottom: 30%;
+        left: 0;
+    }
+    /* About */
+    .about{
+        margin-top: 10rem;
+    }
+    .aboutInfo {
+        padding: 18rem 2rem;
+        width: 35rem;
+        height: 35rem;
+        margin: auto;
+    }
+    .aboutInfo::after{
+        width: 94%;
+        height: 94%;
+        top: 3%;
+        right: 3%;
+    }
+    .aboutTitle{
+        font-size: 3rem;
+        line-height: 3.8rem;
+    }
+    .aboutSubtitle{
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+        margin: 1rem 0;
+    }
+    .aboutNote{
+        margin: 1rem 3rem 0 3rem;
+    }
+}
+
+/* Wide Mobile Device Checking Size- 500px */
+@media only screen and (min-width:480px) and (max-width:767){
+    .container{
+        width: 450px;
+    }
+    /* Header */
+}
