@@ -13,7 +13,7 @@ const ScrollCard = ({image, title, subTitle, buttons, btn1, btn2, cardImage}) =>
               <h4 className="cardTitle">{title}</h4>
           </div>
           {/* Subtitle */}
-          {subTitle && <p className="cardSubtitle"></p>}
+          {subTitle && <p className="cardSubtitle">{subTitle}</p>}
           {/* Buttons */}
           {buttons && 
           <div className="cardButtons">

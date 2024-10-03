@@ -10,6 +10,14 @@
     .container{
         width: 970px;
     }
+    /* Works */
+    .worksNav{
+        grid-template-columns: repeat(4, 1fr);
+        row-gap: 2rem;
+    }
+    .worksCards{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 /* Tablet Device Checking Size- 800px */
@@ -24,6 +32,14 @@
     .heroTopTitle{
         font-size: 6rem;
         line-height: 7rem;
+    }
+    /* Works */
+    .worksNav{
+        grid-template-columns: repeat(4, 1fr);
+        row-gap: 2rem;
+    }
+    .worksCards{
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -131,6 +147,36 @@
     }
     .aboutNote{
         margin: 1rem 3rem 0 3rem;
+    }
+    /* Features */
+    .featureScrollContainer::before, .featureScrollContainer::after {
+        width: 50px;
+    }
+    /* Ads */
+    .adsTitle {
+        font-size: 4rem;
+        line-height: 4.8rem;
+    }
+    .adsSubtitle {
+        font-size: 1.8rem;
+        line-height: 2.3rem;
+        padding: 0 0;
+        margin-block: 1.5rem 3rem;
+    }
+    /* Works */
+    .worksSubtitle {
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+    }
+    .worksNav{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+    .workNavLink{
+        padding: 1rem 1rem;
+    }
+    .worksCards{
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 

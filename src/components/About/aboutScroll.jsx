@@ -11,13 +11,13 @@ import aboutImg8 from '../../assets/img/aboutImages/aboutImg8.png'
 import aboutImg9 from '../../assets/img/aboutImages/aboutImg9.png'
 import aboutImg10 from '../../assets/img/aboutImages/aboutImg10.png'
 
-const aboutScroll = () => {
+const AboutScroll = () => {
   return (
     <>
       {/* About Scroll Cards */}
         <div className="scrollContainer">
             <div className="scrollWrapper">
-                <div className="scrollCards scroll1">
+                <div className="aboutScrollCards scroll1">
                     <ScrollCard
                     title='community'
                     buttons={true}
@@ -61,7 +61,7 @@ const aboutScroll = () => {
                     cardImage={aboutImg3}
                     />
                 </div>
-                <div className="scrollCards scroll1">
+                <div className="aboutScrollCards scroll1">
                     <ScrollCard
                     title='community'
                     buttons={true}
@@ -107,7 +107,7 @@ const aboutScroll = () => {
                 </div>
             </div>
             <div className="scrollWrapper">
-                <div className="scrollCards scroll2">
+                <div className="aboutScrollCards scroll2">
                     <ScrollCard
                     title='slideshow'
                     buttons={true}
@@ -151,7 +151,7 @@ const aboutScroll = () => {
                     cardImage={aboutImg8}
                     />
                 </div>
-                <div className="scrollCards scroll2">
+                <div className="aboutScrollCards scroll2">
                     <ScrollCard
                     title='slideshow'
                     buttons={true}
@@ -201,4 +201,4 @@ const aboutScroll = () => {
   );
 };
 
-export default aboutScroll;
+export default AboutScroll;
