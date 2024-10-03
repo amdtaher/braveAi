@@ -42,7 +42,7 @@ const AdsScroll = () => {
                 </div>
                 <div className="adsScrollCards scroll1">
                     <ScrollCard
-                    image={adsIcon}
+                    image={adsIcon6}
                     title='Facebook Ad Copies'
                     subTitle='Create high-converting landing page copy with minimal input.'
                     />

@@ -1,5 +1,5 @@
-import React from 'react'
-import AboutScroll from './AboutScroll'
+import React from 'react';
+import AboutScroll from './AboutScroll';
 import arrow from '../../assets/img/rightArrow.png'
 
 const About = () => {
