@@ -6,10 +6,10 @@ import featureImg3 from '../../assets/img/featureImages/featureImg3.png'
 import featureImg4 from '../../assets/img/featureImages/featureImg4.png'
 import featureImg5 from '../../assets/img/featureImages/featureImg5.png'
 
-const AboutScroll = () => {
+const featureScroll = () => {
   return (
     <>
-      {/* About Scroll Cards */}
+      {/* Features Scroll Cards */}
         <div className="scrollContainer featureScrollContainer">
             <div className="scrollWrapper">
                 <div className="featureScrollCards scroll1">
@@ -112,4 +112,4 @@ const AboutScroll = () => {
   );
 };
 
-export default AboutScroll;
+export default featureScroll;
