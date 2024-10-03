@@ -1,5 +1,5 @@
 import React from 'react'
-import AboutScroll from './AboutScroll'
+import Aboutscroll from './AboutScroll'
 import arrow from '../../assets/img/rightArrow.png'
 
 const About = () => {
@@ -21,7 +21,7 @@ const About = () => {
                 </div>
             </div>
             {/* About Scroll Cards */}
-            <AboutScroll/>
+            <Aboutscroll/>
         </section>
     </>
     )
